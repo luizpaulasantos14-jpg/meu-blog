@@ -1,1 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiko Game Play - Especial Fortnite</title>
+    <style>
+        /* Configurações Gerais e Cores Modificadas */
+        :root {
+            --azul-bebe: #AEC6CF; /* Cor azul bebê para o topo */
+            --roxo-escuro: #2C004D; /* Mantido para contraste no texto do topo */
+            --fundo-branco: #ffffff; /* Fundo branco para a parte de baixo */
+            --texto-escuro: #1a1a1a; /* Texto escuro para legibilidade no fundo branco */
+            --glass-bg: rgba(174, 198, 207, 0.2); /* Ajuste do container para combinar com o azul */
+        }
 
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--fundo-branco); /* Parte de baixo branca */
+            color: var(--texto-escuro); /* Texto escuro */
+            overflow-x: hidden;
+        }
+
+        /* Header Estilizado (Parte de cima Azul Bebê) */
+        header {
+            background-color: var(--azul-bebe);
+            color: var(--roxo-escuro);
+            text-align: center;
+            padding: 40px 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        /* Conteúdo Principal */
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .perfil-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            background: var(--glass-bg);
+            padding: 20px;
+            border-radius: 15px;
+            border: 1px solid var(--azul-bebe);
+            backdrop-filter: blur(10px);
+            margin-bottom: 40px;
+        }
+
+        img.logo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid var(--azul-bebe);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .texto-introducao h2 {
+            color: var(--roxo-escuro);
+            margin-bottom: 10px;
+        }
+
+        .autor {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Kiko Game Play</h1>
+        <p>Especial Fortnite</p>
+    </header>
+
+    <main>
+        <div class="perfil-container">
+            <img src="https://via.placeholder.com/100" alt="Logo" class="logo">
+            <div class
